@@ -29,6 +29,7 @@ do
 	 echo "パスワードの追加は成功いたしました。"
           ;;
 
+    # Get Passwordの場合
      "Get Password")
          read -p "サービス名を入力してください: " service_name
          # 入力されたサービス名に一致するファイルパターンを用意 
