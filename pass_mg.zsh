@@ -33,7 +33,7 @@ do
          read -p "サービス名を入力してください: " service_name
          # 入力されたサービス名に一致するファイルパターンを用意 
          file_pattern="${data_directory}/${service_name}_*.txt"	 
-         # 一致ファイルが存在するかどうか判定
+         # 一致ファイルが存在するかどうか確認
 	 file_serch=$(find "$data_directory" -name "$service_name_*.txt" 2> /dev/null)
          # 一致するファイルが存在しない場合
          if [ ! -e $file_pattern ]; then
