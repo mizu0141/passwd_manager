@@ -9,7 +9,7 @@
 
 ファイルの実行権限をあたえるため、以下のコマンドを入力して下さい。  
  ```bash:bash
-$ chmod  755 password_manager.zsh
+$ chmod +x password_manager.zsh
 ```
 コマンドが入力できたら次のコマンドを入力して下さい。
  ```bash:bash
