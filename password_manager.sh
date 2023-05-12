@@ -50,23 +50,23 @@ function Get_Password() {
 echo "パスワードマネージャーへようこそ！"
 
 while true; do
-    echo "次の選択肢から入力して下さい(Add Password/Get Password/Exit):"
-    read action
+  echo "次の選択肢から入力して下さい(Add Password/Get Password/Exit):"
+  read action
 
-    case $action in
-        "Add Password")
-          Add_Password
-          ;;
-        "Get Password")
-          Get_Password
-          ;;
-        "Exit")
-          echo "Thank you!"
-          exit 0
-          ;;
-        *)
-          echo "入力が間違えています。Add Password/Get Password/Exitから入力してください。"
+  case $action in
+    "Add Password")
+       Add_Password
+       ;;
+     "Get Password")
+       Get_Password
+       ;;
+      "Exit")
+        echo "Thank you!"
+        exit 0
         ;;
-    esac
-done
+      *)
+        echo "入力が間違えています。Add Password/Get Password/Exitから入力してください。"
+        ;;
+  esac
+ done
 
