@@ -16,3 +16,5 @@ echo "パスワード: $password" >> $filename
 
 # 完了のメッセージを表示
 echo "Thank you!"
+
+# プルリクエスト
