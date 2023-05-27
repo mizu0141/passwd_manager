@@ -34,7 +34,7 @@ function Get_Password() {
   file_pattern="${data_directory}/${service_name}_*.txt.gpg"
 
   # 一致するファイルが存在しない場合
-  if ! ls $file_pattern 1> /dev/null 2>&1; then
+  if ! ls $file_pattern > /dev/null 2>&1; then
     echo "そのサービスは登録されていません"
   # 一致するファイルが存在する場合
   else
